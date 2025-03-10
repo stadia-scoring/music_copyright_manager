@@ -301,14 +301,21 @@ Automated security checks conducted using Bandit identified a single low-severit
 
 B105: Possible Hardcoded Password: Detected default admin password ('admin') which intentionally prompts immediate password change upon first login to enforce secure password usage.
 
+<img width="739" alt="bandit" src="https://github.com/user-attachments/assets/92bdd444-c169-4415-89db-0b080eacdbdd" />
+
+
 ### Injection Attack Testing
 
 The system successfully rejected injection attack attempts (e.g., ' OR 1=1 --, admin'; SELECT * FROM users; --) with proper logging of failed attempts, ensuring protection against SQL injection.
+
+<img width="735" alt="injection" src="https://github.com/user-attachments/assets/a822fb2e-33d4-48be-be25-16eb5f53eb1d" />
+
 
 ### Brute Force Protection
 
 Successfully tested account lockout after multiple unsuccessful login attempts. After multiple incorrect logins, the account locks temporarily (e.g., 300 seconds), with each attempt logged to maintain a comprehensive audit trail.
 
+<img width="731" alt="brute-force" src="https://github.com/user-attachments/assets/182e45a9-3535-4a38-aeb4-a90218912565" />
 
 ## Security Considerations
 
