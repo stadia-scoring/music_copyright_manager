@@ -23,7 +23,7 @@ The digital transformation of the music industry has amplified concerns about co
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/stadia-scoring/SSD_PCOM7E_JAN_2025/music_copyright_manager.git
+git clone https://github.com/stadia-scoring/music_copyright_manager.git
 cd music_copyright_manager
 ```
 
